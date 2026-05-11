@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MatrixAndStringsUtils/MatrixAndStringsUtils.vcxproj" Id="78397638-76c5-453f-a96f-aea62c08bec1" />
+</Solution>

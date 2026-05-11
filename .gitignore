@@ -1,0 +1,43 @@
+# Visual Studio
+.vs/
+.vcxproj.user
+*.suo
+*.user
+
+# Build folders
+x64/
+x86/
+Debug/
+Release/
+out/
+build/
+
+# Compiled files
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.tlog
+
+# Cache
+ipch/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.cache/
+Testing/

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\AppRunner">
+      <UniqueIdentifier>{9f858c65-9d69-4514-b4ea-4bcf3b100a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CoreModules">
+      <UniqueIdentifier>{4139f721-055f-4967-be30-b8053f494126}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixOperator.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixRunner.cpp">
+      <Filter>Source Files\AppRunner</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientRunner.cpp">
+      <Filter>Source Files\AppRunner</Filter>
+    </ClCompile>
+    <ClCompile Include="StringRunner.cpp">
+      <Filter>Source Files\AppRunner</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixOperator.cpp">
+      <Filter>Source Files\CoreModules</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientData.cpp">
+      <Filter>Source Files\CoreModules</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Source Files\CoreModules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppRunner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
